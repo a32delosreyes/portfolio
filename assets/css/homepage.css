@@ -39,28 +39,14 @@
 
 .hero-btn,
 .hero-buttons{
-  width: 220px;
-  min-width: 220px;
-  max-width: 220px;
-  height: 54px;
-  min-height: 54px;
-  max-height: 54px;
-  border-radius: 28px;
+  padding: 12px 28px;
+  border-radius: 25px;
   font-family: var(--font-subheading);
-  font-size: 1rem;
-  font-weight: 800;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0;
+  font-weight: 700;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-sizing: border-box;
-  border: 2px solid #e4a740;
+  font-size: 1rem;
 }
 
 .primary-btn {
