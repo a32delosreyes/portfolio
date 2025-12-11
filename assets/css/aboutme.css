@@ -1,15 +1,17 @@
 .about-section {
   background-color: var(--brand-bg);
   color: var(--brand-dark);
-  padding: 120px 10%;
+  padding: 100px 10% 200px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .about-container {
   display: flex;
   align-items: center;
-  gap: 60px;
+  justify-content: space-between;
+  gap: 50px;
   max-width: 1200px;
   width: 100%;
 }
@@ -58,30 +60,25 @@
   border-left: 6px solid #e4a740;
   padding: 20px 24px;
   margin-top: 20px;
-
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(66, 59, 32, 0.12);
 }
 
 .highlight-box p {
   font-family: var(--font-subheading);
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 6px 0;
   color: #423b20;
 }
-
-
 
 @media (max-width: 900px) {
   .about-container {
     flex-direction: column;
     text-align: center;
   }
-
   .about-text {
     text-align: center;
   }
-
   .about-photo {
     width: 260px;
     height: 260px;

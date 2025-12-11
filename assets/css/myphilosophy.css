@@ -36,14 +36,25 @@
 .philosophy-photo {
   flex-shrink: 0;
   width: 320px;
-  aspect-ratio: 4 / 5;
+  height: 320px;       
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 50%;      
   box-shadow: 0 8px 24px rgba(66, 59, 32, 0.15);
 }
 
 @media (max-width: 900px) {
-  .philosophy-content { flex-direction: column; text-align: center; }
-  .philosophy-text-block { text-align: center; }
-  .philosophy-photo { margin-top: 2rem; width: 260px; aspect-ratio: 4 / 5; }
+  .philosophy-content { 
+    flex-direction: column; 
+    text-align: center; 
+  }
+  .philosophy-text-block { 
+    text-align: center; 
+  }
+  .philosophy-photo { 
+    margin-top: 2rem; 
+    width: 260px;
+    height: 260px;    
+    border-radius: 50%; 
+  }
 }
+
