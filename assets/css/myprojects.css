@@ -4,11 +4,12 @@
   color: #423b20;
 }
 
-.project-section .section-title {
+.section-title {
+  text-align: center;
+  width: 100%;
   font-family: var(--font-heading);
   font-size: clamp(2rem, 3vw, 3rem);
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 .project-grid {
