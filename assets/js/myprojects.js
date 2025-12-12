@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', () => {
     { id: 3, category: "videography", title: "Promo Video", description: "A short promotional video crafted for a product launch." },
     { id: 4, category: "video editing", title: "Short Film Edit", description: "A cinematic short film editing project focusing on color grading and pacing." },
     { id: 5, category: "digital marketing", title: "Ad Design", description: "A digital ad series created for an online campaign." },
-    { id: 6, category: "placeholder", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
-    { id: 7, category: "placeholder", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
-    { id: 8, category: "placeholder", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
-    { id: 9, category: "placeholder", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." } 
+    { id: 6, category: "digital marketing", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
+    { id: 7, category: "photography", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
+    { id: 8, category: "photography", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." }, 
+    { id: 9, category: "photography", title: "Coming Soon Project", description: "This is a temporary placeholder for an upcoming project." } 
 
   ];
 
